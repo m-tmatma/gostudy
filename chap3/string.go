@@ -10,6 +10,6 @@ func main() {
 	var y string
 	y = "Hello"
 	fmt.Println(y)
-	y = "Second"
+	y = x + "Second"
 	fmt.Println(y)
 }
