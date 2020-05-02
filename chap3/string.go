@@ -10,4 +10,6 @@ func main() {
 	var y string
 	y = "Hello"
 	fmt.Println(y)
+	y = "Second"
+	fmt.Println(y)
 }
