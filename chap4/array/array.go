@@ -15,8 +15,8 @@ func main() {
 	y[4] = 84
 
 	var total float64 = 0
-	for i := 0; i < 5; i++ {
+	for i := 0; i < len(y); i++ {
 		total += y[i]
 	}
-	fmt.Println(total / 5)
+	fmt.Println(total / float64(len(y)))
 }
