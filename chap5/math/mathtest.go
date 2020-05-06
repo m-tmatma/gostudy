@@ -20,5 +20,16 @@ func main() {
 		}
 	}
 	fmt.Println(min)
+	fmt.Println(findmin(x))
 	fmt.Println(x)
+}
+
+func findmin(x []int) int {
+	var min = math.MaxInt64
+	for _, val := range x {
+		if min > val {
+			min = val
+		}
+	}
+	return min
 }
