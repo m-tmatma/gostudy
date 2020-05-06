@@ -16,6 +16,10 @@ func circleArea2(c *Circle) float64 {
 	return math.Pi * c.r * c.r
 }
 
+func (c *Circle) area() float64 {
+	return math.Pi * c.r * c.r
+}
+
 func main() {
 	c := new(Circle)
 	d := Circle{1, 2, 3}
@@ -25,4 +29,5 @@ func main() {
 	fmt.Println(d)
 	fmt.Println(circleArea(e))
 	fmt.Println(circleArea2(&e))
+	fmt.Println(e.area())
 }
