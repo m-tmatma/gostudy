@@ -14,6 +14,13 @@ func main() {
 		fmt.Println(i, data)
 	}
 
+	if name, ok := x["key"]; ok {
+		fmt.Println(name, ok)
+	}
+	if name, ok := x["key3"]; ok {
+		fmt.Println(name, ok)
+	}
+
 	y := make(map[int]int)
 	y[1] = 10
 	y[10] = 20
