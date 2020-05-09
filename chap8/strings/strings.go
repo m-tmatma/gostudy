@@ -11,4 +11,5 @@ func main() {
 	fmt.Println(strings.HasPrefix("test", "te"))
 	fmt.Println(strings.Index("test", "e"))
 	fmt.Println(strings.Join([]string{"a", "b"}, "-"))
+	fmt.Println(strings.Replace("aaaa", "a", "b", 2))
 }
