@@ -13,4 +13,8 @@ func main() {
 	fmt.Println(strings.Join([]string{"a", "b"}, "-"))
 	fmt.Println(strings.Replace("aaaa", "a", "b", 2))
 	fmt.Println(strings.Split("a-b-c-d-e", "-"))
+	fmt.Println(strings.ToUpper("test"))
+
+	str := string([]byte{'T', 'E', 'S', 'T'})
+	fmt.Println(str)
 }
